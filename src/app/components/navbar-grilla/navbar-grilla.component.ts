@@ -14,9 +14,6 @@ export class NavbarGrillaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleMenu() {
-    this.activeMenu = !this.activeMenu;
-  }
 
 
 }

@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { CountriesComponent } from './components/countries/countries.component';
 import { CountryComponent } from './components/country/country.component';
 import { NavbarGrillaComponent } from './components/navbar-grilla/navbar-grilla.component';
+import { NavbarMainComponent } from './components/navbar-main/navbar-main.component';
+import { PlayersComponent } from './components/players/players.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountriesComponent,
     CountryComponent,
-    NavbarGrillaComponent
+    NavbarGrillaComponent,
+    NavbarMainComponent,
+    PlayersComponent
   ],
   imports: [
     BrowserModule,

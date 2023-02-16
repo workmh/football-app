@@ -1,0 +1,51 @@
+<div class="show-mobile">
+  <div>
+    <button (click)="toggleMenu()">
+      <img src="./assets/svg/icon_menu.svg" alt="menu">
+    </button>
+    <a href="">
+<!--       <img src="./assets/svg/football-game-svgrepo-com.svg" alt="logo">
+ -->      <strong style="color:black;">HSPORT</strong>
+    </a>
+<!--     <div class="cart">
+      <a href="">
+        <img src="./assets/svg/icon_shopping_cart.svg" alt="logo">
+      </a>
+      <span class="counter">{{ 'counter' }}</span>
+    </div> -->
+
+  </div>
+  <div class="side-menu" [class.active]="activeMenu">
+    <button (click)="toggleMenu()">Close</button>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Countries</a></li>
+      <li><a href="../players/players.component.ts">Players</a></li>
+      <li><a href="">Leagues</a></li>
+    </ul>
+  </div>
+</div>
+<div class="hide-mobile">
+  <div>
+    <nav>
+      <a class="logo" href="">
+        <img src="./../../../assets/svg/football-game-svgrepo-com.svg" alt="logo">
+      </a>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Countries</a></li>
+        <li><a href="../players/players.component.ts">Players</a></li>
+        <li><a href="">Leagues</a></li>
+      </ul>
+    </nav>
+    <div class="info">
+      <div class="account">HSPORT</div>
+<!--       <div class="cart">
+        <a href="">
+          <img src="./assets/svg/icon_shopping_cart.svg" alt="logo">
+        </a>
+        <span class="counter">{{ 'counter' }}</span>
+      </div> -->
+    </div>
+  </div>
+</div>

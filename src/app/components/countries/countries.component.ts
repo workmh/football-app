@@ -11,6 +11,7 @@ import { Country } from '../../models/country.model';
 export class CountriesComponent implements OnInit {
 
   countries: any;
+  country: Country [] = [];
 
 
 
